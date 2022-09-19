@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+}
+
+/* Navbar Section */
+
+.navbar {
+  background-color: #645caa;
+  padding: 0;
+}
+
+.nav-img {
+  width: 29px;
+  vertical-align: middle;
+  height: 27px;
+  border-radius: 5px;
+}
+
+.nav-item {
+  padding: 0 3px;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #645caa;
+}
+
+.heading {
+  text-align: left;
+  padding: 42px;
+  font-family: "Baloo 2", cursive;
+  color: #f9f9f9;
+  line-height: 1.5;
+}
+
+.eye-catch {
+  font-size: 2.5rem;
+}
+
+.row {
+  margin: 0;
+}
+.main-title {
+  padding-top: 2%;
+}
+
+.main-img {
+  width: 90%;
+  height: 90%;
+  padding-top: 60px;
+}
+
+.btn {
+  background: #b28cb3;
+  background-image: -webkit-linear-gradient(top, #b28cb3, #5a97bd);
+  background-image: -moz-linear-gradient(top, #b28cb3, #5a97bd);
+  background-image: -ms-linear-gradient(top, #b28cb3, #5a97bd);
+  background-image: -o-linear-gradient(top, #b28cb3, #5a97bd);
+  background-image: linear-gradient(to bottom, #b28cb3, #5a97bd);
+  -webkit-border-radius: 32;
+  -moz-border-radius: 32;
+  border-radius: 32px;
+  text-shadow: 1px 1px 3px #e32de3;
+  font-family: Arial;
+  color: #e8e8e8;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a356a3;
+  background-image: -webkit-linear-gradient(top, #a356a3, #4a92bf);
+  background-image: -moz-linear-gradient(top, #a356a3, #4a92bf);
+  background-image: -ms-linear-gradient(top, #a356a3, #4a92bf);
+  background-image: -o-linear-gradient(top, #a356a3, #4a92bf);
+  background-image: linear-gradient(to bottom, #a356a3, #4a92bf);
+  text-decoration: none;
+}
+
+/* Features Section */
+
+#features {
+  background-color: #a084ca;
+}
+
+.features-title {
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Baloo 2", cursive;
+  color: #f9f9f9;
+  line-height: 1.5;
+}
+
+.features-p {
+  margin: 1% 21%;
+}
+
+.feature-img {
+  width: 85%;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.content1 {
+  text-align: justify;
+  padding: 44px;
+  font-family: "Baloo 2", cursive;
+  color: #f9f9f9;
+  line-height: 1.5;
+}
+
+h2 {
+  padding-top: 5%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Services section */
+
+#services {
+  background-color: #bface0;
+}
+
+.services-title {
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Baloo 2", cursive;
+  color: #f9f9f9;
+  line-height: 1.5;
+}
+
+.service-img {
+  width: 90px;
+  height: 90px;
+}
+
+.services-p {
+  margin: 1% 21%;
+}
+
+.inner-services-p {
+  padding: 33px;
+  margin: 0;
+  font-size: large;
+  /* display: block; */
+  display: inline-block;
+  width: 50%;
+}
+
+.content2 {
+  text-align: center;
+  font-family: "Baloo 2", cursive;
+  color: #f9f9f9;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 60px;
+}
+
+/* Learnings section */
+#learnings {
+  background-color: #bface0;
+}
+
+.learnings-title {
+  text-align: center;
+  font-family: "Baloo 2", cursive;
+  color: #f9f9f9;
+  line-height: 1.5;
+  padding-top: 30px;
+}
+
+.card {
+  margin: 18px;
+  line-height: 1.5;
+  background-color: #645caa;
+}
+
+.card-img-top {
+  height: 158px;
+  text-align: center;
+  margin: auto;
+  margin-top: 12px;
+  width: 200px;
+  border-radius: 6%;
+  background-color: black;
+}
+
+.card-body {
+  text-align: center;
+  font-family: "Baloo 2", cursive;
+  color: #f9f9f9;
+  line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+  text-align: center;
+  padding-top: 35px;
+  background-color: #645caa;
+}
+
+.footer-logos {
+  padding: 0 38px;
+}
+
+.footer-p {
+  padding-top: 20px;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  color: antiquewhite;
+  font-weight: 800;
+}
+
+.fa-brands {
+  color: #e8e8e8;
+}
+
+/* Responsive media Query */
+@media screen and (max-width: 900px) {
+  .heading {
+    text-align: center;
+    padding: 51px;
+    font-family: "Baloo 2", cursive;
+    color: #f9f9f9;
+    line-height: 1.5;
+  }
+
+  .main-img {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 29px;
+  }
+
+  .content1 {
+    text-align: center;
+    padding: 44px;
+    font-family: "Baloo 2", cursive;
+    color: #f9f9f9;
+    line-height: 1.5;
+  }
+
+  .inner-services-p {
+    padding: 25px;
+    padding: auto;
+    margin: 0;
+    font-size: x-small;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .card-img-top {
+    height: 158px;
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+    width: 180px;
+    border-radius: 6%;
+    background-color: black;
+  }
+}
+
+/* Footer logos responsive for phone screens.*/
+@media screen and (max-width: 378px) {
+  .footer-logos {
+    padding: 0 30px;
+  }
+}
